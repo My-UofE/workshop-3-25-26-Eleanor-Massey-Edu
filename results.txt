@@ -1,11 +1,9 @@
 javac DemoIncrement.java ... ok
 java DemoIncrement ... ok
-Line 1 variable values ... failed
-Expected output:
-a: 4, b: 8, x: 4, y: 9
+Line 1 variable values ... ok
 Line 2 i++ means ... ok
 Line 3 ++i means ... ok
-FAILED: DemoIncrement.java
+PASSED: DemoIncrement.java
 ----
 javac AgeToGroup.java ... failed
 50 1 ... failed
@@ -59,4 +57,4 @@ PrintPattern2 5  ... failed
 FAILED: PrintPattern2.java
 ----
 --- RESULT: ---
-Your score is 0 / 7.5
+Your score is 1 / 7.5
