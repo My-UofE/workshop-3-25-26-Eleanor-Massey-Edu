@@ -26,12 +26,7 @@ public class PrintSquares {
         //logic
         for (int i=startNum; i<endNum+1; i++){
             //System.out.println(i);
-            if (i==endNum){
-                System.out.print(i*i);
-            } else {
-                System.out.print(i*i + ", ");
-            }
-            
+            System.out.print(i*i + " ");
         }
         System.out.println();
     }
