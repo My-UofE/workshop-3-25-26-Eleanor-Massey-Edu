@@ -15,7 +15,7 @@ public class NumbersInSpanish {
       case 5:
          System.out.println("cinco"); break;
       default:
-         System.out.println("Sorry, I don't know that one"); break;
+         System.out.println("Sorry I don't know that one"); break;
       }
     }
  }
