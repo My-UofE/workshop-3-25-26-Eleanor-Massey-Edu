@@ -29,5 +29,5 @@ public class PrintSquares {
             System.out.print(i*i + " ");
         }
         System.out.println();
-    }
+    } 
 }
