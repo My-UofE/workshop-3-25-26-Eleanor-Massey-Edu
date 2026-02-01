@@ -25,9 +25,10 @@ public class SumSquares {
 
         //logic
         int total = 0;
-        for (int i=startNum; i<endNum+1; i++){
-            //System.out.println(i);
+        int i = startNum;
+        while (i <= endNum){
             total = total + i*i;
+            i++;
         }
         System.out.println(total);
         System.out.println();
