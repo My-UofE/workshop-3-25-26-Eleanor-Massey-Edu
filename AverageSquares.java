@@ -26,10 +26,11 @@ public class AverageSquares {
         //logic
         double total = 0;
         int i = startNum;
-        while (i <= endNum){
+        do {
             total = total + i*i;
             i++;
-        }
+        } while (i <= endNum);   //with a do while loop, it will do it the same number of times as a while loop, just it is guaranteed to do it the first time
+            
         int n = endNum - startNum + 1;
         double average = total/n;
         System.out.println(average);
